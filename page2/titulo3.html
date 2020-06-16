@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Patolin</title>
+	<link rel="stylesheet" type "text/css" href="body3.css" />
+</head>
+
+<body>
+
+
+	<nav>
+		<ul>
+			<li>
+				<div class="contenedor_general"><a href="titulo.html">
+						<div class="contenedor_uno">
+							<p class="texto_uno">Inicio</p>
+						</div>
+						<div class="contenedor_dos">
+							<p class="texto_dos">Inicio</p>
+						</div>
+				</div>
+			</li></a>
+			<li>
+				<div class="contenedor_general"><a href="titulo2.html">
+						<div class="contenedor_uno">
+							<p class="texto_uno">Fotos</p>
+						</div>
+						<div class="contenedor_dos">
+							<p class="texto_dos">Fotos</p>
+						</div>
+				</div>
+			</li></a>
+			<li>
+				<div class="contenedor_general"><a href="titulo3.html">
+						<div class="contenedor_uno">
+							<p class="texto_uno">Reservaciones</p>
+						</div>
+						<div class="contenedor_dos">
+							<p class="texto_dos">Reservaciones</p>
+						</div>
+				</div>
+			</li>
+			<li></a>
+				<div class="contenedor_general"><a href="titulo4.html">
+						<div class="contenedor_uno">
+							<p class="texto_uno">Contacto</p>
+						</div>
+						<div class="contenedor_dos">
+							<p class="texto_dos">Contacto</p>
+						</div>
+				</div>
+			</li>
+			<li>
+				<div class="contenedor_general"><a href="PHP/ingreso.php">
+						<div class="contenedor_uno">
+							<p class="texto_uno">Administrador </p>
+						</div>
+						<div class="contenedor_dos">
+							<p class="texto_dos">Administrador </p>
+						</div>
+					</a>
+				</div>
+			</li>
+
+		</ul>
+	</nav>
+	<link rel="stylesheet" type "text/css" href="pood4.css" />
+	<h1>Reserva aqui.
+		<p>No te quedes sin tu lugar reserva ahora!!!.</p>
+	</h1></br></br>
+	<form action="PHP/administrador/agregar.php" method="post">
+		Nombre: <input type="text" name="nombre" placeholder="Tu Nombre aqui:" autofocus required><br /><br />
+		Apellido: <input type="text" name="apellido"><br /><br />
+		Correo: <input type="text" value="usuario@dominio.com" name="email" required><br /><br />
+		Fecha: <input type="date" value="2015-03-26" name="fecha"><br /><br />
+		Arrastrada: <input list="arrastrada" name="arrastrada">
+		<datalist id="arrastrada">
+			<option value="Arrastrada Satelite"></option>
+			<option value="Arrastrada Polanco"></option>
+			<option value="Arrastrada Condesa"></option>
+			<option value="Arrastrada Los Cabos"></option>
+			<option value="Arrastrada Playa del Carmen"></option>
+			<option value="Arrastrada Santa Fe"></option>
+		</datalist><br /><br />
+		<input type="submit" value="Send">
+		<input type="reset" value="Reiniciar">
+
+	</form>
+
+
+
+</body>
+
+</html>

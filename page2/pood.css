@@ -1,0 +1,7 @@
+﻿@font-face{
+font-family:tipo1;
+src:url(Tipo1.TTF);
+}
+h1{
+font-family:tipo1;
+}

@@ -1,0 +1,8 @@
+@font-face{
+font-family:frank;
+src:url(Tipo2.TTF);
+}
+h1{
+font-family:frank;
+font-size: 70px;
+}

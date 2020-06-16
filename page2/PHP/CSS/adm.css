@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+header, #principal {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	width: 800px;
+	height: 60px;
+
+	background-color: black;
+	border-bottom:1px solid gray;
+}
+
+
+
+
+#close {
+	padding-top: 40px;
+
+	float: right;
+	margin-right: 1%;
+}
+
+#principal {
+	width: 800px;
+	height: 90%;
+}
+
+aside {
+	width: 150px;
+	height: 100%;
+	float: left;
+	padding-top: 20px;
+}
+
+section {
+	width: 650px;
+	height: 100%;
+	float: right;
+}
+
+
+h1  {
+        font-family:FangSong;
+	padding-top:2%;
+	margin-left: 40%;
+	color: white;
+        font-size: 300%;
+}
+h3 {
+        font-family:FangSong;
+	padding-top:2%;
+	margin-left: 0%;
+	color: white;
+        font-size: 300%;
+}
+
+section ul {
+	margin-left: 5%;
+}
+
+iframe {
+	padding-top: 50px;
+	width: 650px;
+	height: 360px;
+}
+*{
+margin:0px;
+padding: 0px;
+}
+body{
+	background-image: url(/page2imagen/ima5.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px 600px;
+	background-attachment:fixed;
+	background-color: black;
+
+}
+img{
+       
+	margin-top: 60px;
+         width: 900px;
+	height: 880px;
+}
+div.principal{
+	margin-top:20px;
+	padding-top: 0px auto;
+}

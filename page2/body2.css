@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagen/ima6.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px 700px;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+
+nav {
+    margin: 0px auto;
+    padding: 30px;
+    width: 1000px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.container {
+    margin-right: 20px;
+
+}
+
+ul {
+    list-style: none;
+    width: 1000px;
+    height: 40px;
+}
+
+li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+div.contenedor_general:hover {
+    margin-top: -40px;
+}
+
+div.contenedor_general {
+    width: 200px;
+    height: 80px;
+    background-color: yellow;
+    -webkit-transition: margin-top .2s;
+
+}
+
+div.contenedor_uno {
+    width: 200px;
+    height: 36px;
+    background-color: black;
+    overflow: hidden;
+    border-bottom: 4px solid #f0296b;
+
+}
+
+div.contenedor_dos {
+    width: 200px;
+    height: 36px;
+    background-color: #f0296b;
+    overflow: hidden;
+    border-bottom: 4px solid black;
+
+
+}
+
+p.texto_uno,
+p.texto_dos {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+@font-face {
+    font-family: Streamster;
+    src: url(C:/User/Fco/Desktop/page2/Tipo2.ttf);
+}
+
+h1 {
+    font-family: Streamster;
+    color: white;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+
+}
+
+img {
+    width: 300px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: transparent;
+}
